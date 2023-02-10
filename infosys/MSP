@@ -1,3 +1,12 @@
+Global Merchant Services (GMS) is Accounts Payable system which takes care of Merchants affiliation with American Express. It maintains financial 
+and non-financial characteristics like name, address, bank details, Terms and Condition of Merchants with American Express. This system takes care of 
+processing transactions submitted by merchants from US, CANADA, LAC (Latin American countries), EMEA (Europe and Middle East Asia) and APAC
+(Japan Asia-Pacific and Australia) markets to American Express for their card member spending. It does validation, risk validation and pricing of 
+transactions as per Term and Condition between American Express and merchant and make the payment to the merchants for their submissions. This system 
+also creates different types business reports and different types of merchant statements. This system also sends financial and non-financial data to various 
+interfacing system as Card Member system for Authorization and Business reporting system for doing deep data analysis for driving business decision on it.
+
+
 This Merchant Service Portal page is for ClickToChat team and specific to its applications.
 MSP (Merchant Servicing Portal) is widely used to servicing the Domestic and International Merchants. MSP is capable of servicing Financial & Non-financial
 data manipulation and maintenance of a Merchants. The data handled in MSP are stored in SOR (System of Record) and tracking details are stored 
