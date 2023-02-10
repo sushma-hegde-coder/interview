@@ -1,0 +1,22 @@
+This Merchant Service Portal page is for ClickToChat team and specific to its applications.
+MSP (Merchant Servicing Portal) is widely used to servicing the Domestic and International Merchants. MSP is capable of servicing Financial & Non-financial
+data manipulation and maintenance of a Merchants. The data handled in MSP are stored in SOR (System of Record) and tracking details are stored 
+in MTD (Merchant Tracking Database). MSP consuming data in following ways. Data Power – DP Service, Application Program Interface – API Service,
+IBM Stored Procedures. MSP application is based on Pega and One Servicing Technologies.  MSP is capable of servicing below Intents/Demands. 
+
+Merchant Tracking
+Audit Details
+Contact History
+Memo
+Communication
+Communication History
+Financial Details
+Banking Details
+Banking Approval
+Payments
+Long Term Reserve
+Merchant Details
+Business Contact
+Characteristics
+Entity Details
+Seller pricing
