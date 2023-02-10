@@ -1,0 +1,21 @@
+Experience:
+Project: Merchant Service Portal (Duration-7 months)
+Description:. MSP is widely used to servicing the Domestic and International Merchants. 
+Key Responsibilities:
+Developing modules using One App module generator
+Fixing defects in modules and deploying them in different environments
+
+Project: Soccomm Application (Duration-1 year)
+Description:. This application aims to assist users in online buying and selling of products and services. Application provides facility to create groups and execute different kinds of transactions within groups. 
+Key Responsibilities:
+Developing reusable, efficient React components and GraphQL APIs.
+Working with axios, promise based HTTP client for browser and nest.js for hitting API endpoints for fetching data into the app
+Testing endpoints using GraphQL playground and debugging of the entire application using Chrome Development tools
+Using redux to store data globally and for easy retrieval of data to any component in the app
+
+Project: Employee Onboarding (Duration-6 months)
+Description: This is an application for HR to onboard the employees who have been selected after interviews. This application involves workflow starting from candidate creation, document upload by candidate till release of final offer letter to the candidate.
+Key Responsibilities:
+Developing REST-based APIs and created API documentation
+Using React Refs, controlled and uncontrolled react components for different use cases and maximizing use of events and promises for application control flow. 
+Delivering quality code by applying the best development practices.
