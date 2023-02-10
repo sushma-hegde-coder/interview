@@ -1,0 +1,43 @@
+With one app we provide a powerful framework that helps you build quality web applications with rich feature set. For example progressive web apps..
+Modular approach reduces..Back potential and emphasizes culture of code reusability .. Modules are small reusable parts of web page that operate and deploy
+independently but can be used together to form A complete user interface. The composable nature of our module to update existing user experiences and launch
+new ones on the fly without restarting server..First engineers develop Modules using our one app module generator which are stored in repositories in the 
+American Express server.. From there they are. Bundled, tested and independently deployed through pipeline tool Jenkins.. To setup the pipeline for modules 
+engineers make PR to ecosystem registry .. When the module finally arrives at the content delivery network it is ready to be dynamically pulled by one app 
+and users can enjoy new features . Different products require different user interfaces .. Each one app runs on a subdomain for a specific Tenancy ..
+A tenancy is the unique instance of one app separate from any other tenancies..Each tenancy will have a root module .. Its like different door to an 
+application. . Parent module Is generally used for authentication and high level rating.. All modules are accessed through root module.. and from here 
+you can load and compose the other modules and child routes. All tenancies are individually configured to fit your teams needs and display the modules and 
+contents you have decided work best .. 
+
+In the past, each of our digital experiences were built as an independent application across multiple code bases. It was near impossible to centrally update, manage, or share content. This resulted in an inconsistent and disjointed user experience within the americanexpress.com site and across global markets.
+
+One App helps solve this by providing a framework to build quality, modularized web applications. We had engineers working on elements like navigation, calls to action, and breadcrumbs across multiple teams, resulting in duplicative effort and more potential for bugs. One App encourages a culture of code re-usability to improve development efficiency and achieve feature parity across the enterprise.
+
+While many know it to be grounded with React, One App also contains a number of other open and inner sourced libraries that make solving engineering problems specific to American Express infrastructure and coding standards faster and easier. Leave the tooling to us so engineers can focus on building awesome features!
+
+One App and Other One Amex Platforms
+One App closely integrates with other One Amex platforms and libraries such as:
+
+One DLS– One App uses DLS which enables UX consistency across American Express sites and markets.
+One Data- One Data functions can be called directly from One App UI. This reduces the time to market for developers.
+One Identity- One Identity integrations allow the showing of a particular Module based on the token.
+Hyperdrive- Clickstream data from the One App UX is fed to Hyperdrive for analysis.
+The benefits to using One App include:
+
+Build Once, Deploy Globally- Ability to add features and scale to new markets with lower cost and development time.
+Consistent User Experience- Unified look & feel, data, and navigation across all experiences.
+Lower Infrastructure Costs- We manage infrastructure on your behalf, from node upgrade to PaaS migrations and much more. You really only have to worry about deploying your code.
+Usage Guidelines
+To truly unlock the value of One App, teams need to embrace the concept of modularization and reusability. These don’t just feed into a development strategy but drive a modern product and design culture. Commitment across all levels of the organization must be obtained to fundamentally shift the team’s focus from specific use cases to building for the global enterprise.
+
+Develop Modules, Not Pages
+Pages have lots of varied complexity, whereas Modules are more focused on functionality.
+
+In this example, we built a Payment Summary Module that includes complexities of:
+
+OPEN/SBS/Consumer/Corporate
+Basic/Supp/Authorized Account Manager
+Charge/Lending/Lending on Charge
+All market nuances, including dual currency support
+All rules and UX are built and documented to support proprietary (AmericanExpress.com, Mobile App) and partner (Siri, Alexa, Facebook Messenger) channels.
